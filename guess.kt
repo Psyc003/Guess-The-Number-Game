@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-  
+
     <RelativeLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-  
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
             android:background="#FF9100"
             android:text="GUESS THE NUMBER"
             android:textSize="30sp" />
-  
+
         <TextView
             android:id="@+id/textView2"
             android:layout_width="391dp"
@@ -44,7 +44,7 @@
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
-  
+
         <EditText
             android:id="@+id/editId"
             android:layout_width="348dp"
@@ -59,7 +59,7 @@
             android:gravity="center"
             android:hint="ENTER"
             android:inputType="numberDecimal" />
-  
+
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
@@ -75,6 +75,6 @@
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
-  
+
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
